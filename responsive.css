@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .navbar-toggler {
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    color: #D56C38;
+    border: none;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 40px;
+   
+  }
+  .service-card p {
+    font-size: 13px;
+}
+.service-card {
+    margin: 2rem 0;
+}
+.copyright h5 {
+    font-size: 12px;
+}
+.copyright-lnk li a {
+    font-size: 11px;
+}
+}
+
+
+@media (max-width:767px){
+    .banner{
+        min-height: 60vh;
+    }
+    .copyright, .copyright .text-end {
+        text-align: center !important;
+    }
+}
